@@ -13,7 +13,6 @@ import android.webkit.MimeTypeMap;
 import android.widget.RelativeLayout;
 import android.widget.RelativeLayout.LayoutParams;
 import android.widget.Toast;
-
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.badlogic.gdx.utils.Timer;
@@ -58,7 +57,7 @@ public class AndroidLauncher extends AndroidApplication implements InterfaceAdve
 
 		//Initialise Admob
 	    interstitial = new InterstitialAd(this);
-	    interstitial.setAdUnitId("ca-app-pub-3729576601854244/8677730417");
+	    interstitial.setAdUnitId("ca-app-pub-3729576601854244/5890557616");
 	    adRequest = new AdRequest.Builder().addTestDevice("D25AD0A36877106B87DC9865E9C5CD05").build();
 
 		
@@ -221,7 +220,7 @@ public class AndroidLauncher extends AndroidApplication implements InterfaceAdve
 	public void initialiseSwarm() {
 		//Swarm initialise stuff
 		Swarm.setActive(this);
-		Swarm.init(this, 15591, "ea786f7a5f13811a3e0501a993b0c014"); //context, app id, app key
+		Swarm.init(this, 15749, "3668364a03ace66e3a2a64ddfb386684"); //context, app id, app key
 		Swarm.setAllowGuests(true);
 
 	}
